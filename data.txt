@@ -1,0 +1,8 @@
+
+> mi-w20@0.0.1 hw2 /Users/janprasil/git/mi-w20
+> babel-node ./hw2/index.js --presets es2015,stage-1
+
+server started
+socket opened
+UUID: "add\nnazdar
+"
