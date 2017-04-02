@@ -1,0 +1,105 @@
+
+> mi-w20@0.0.1 hw5 /Users/janprasil/git/mi-w20
+> babel-node ./hw5/index.js --presets es2015,stage-1
+
+server started on http://localhost:8080
+REPLACE /customer/
+Host: localhost:8080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Cache-Control: no-cache
+Accept-Language: cs-CZ,cs;q=0.8,en;q=0.6
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Postman-Token: 916438a2-c538-37b0-3faf-7e2a102a71f1
+Accept-Encoding: gzip, deflate, sdch, br
+
+
+TEXT GET /customer/ HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Cache-Control: no-cache
+Accept-Language: cs-CZ,cs;q=0.8,en;q=0.6
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Postman-Token: 916438a2-c538-37b0-3faf-7e2a102a71f1
+Accept-Encoding: gzip, deflate, sdch, br
+
+
+REPLACE /__webpack_hmr
+Host: localhost:8080
+Connection: keep-alive
+Accept: text/event-stream
+Cache-Control: no-cache
+Origin: http://localhost:8000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Referer: http://localhost:8000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: cs-CZ,cs;q=0.8,en;q=0.6
+
+
+TEXT GET /__webpack_hmr HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Accept: text/event-stream
+Cache-Control: no-cache
+Origin: http://localhost:8000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Referer: http://localhost:8000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: cs-CZ,cs;q=0.8,en;q=0.6
+
+
+ENDED
+ENDED
+REPLACE /__webpack_hmr
+Host: localhost:8080
+Connection: keep-alive
+Accept: text/event-stream
+Cache-Control: no-cache
+Origin: http://localhost:8000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Referer: http://localhost:8000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: cs-CZ,cs;q=0.8,en;q=0.6
+
+
+TEXT GET /__webpack_hmr HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Accept: text/event-stream
+Cache-Control: no-cache
+Origin: http://localhost:8000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Referer: http://localhost:8000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: cs-CZ,cs;q=0.8,en;q=0.6
+
+
+ENDED
+REPLACE /__webpack_hmr
+Host: localhost:8080
+Connection: keep-alive
+Accept: text/event-stream
+Cache-Control: no-cache
+Origin: http://localhost:8000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Referer: http://localhost:8000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: cs-CZ,cs;q=0.8,en;q=0.6
+
+
+TEXT GET /__webpack_hmr HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Accept: text/event-stream
+Cache-Control: no-cache
+Origin: http://localhost:8000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Referer: http://localhost:8000/
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: cs-CZ,cs;q=0.8,en;q=0.6
+
+
+ENDED

@@ -28,7 +28,8 @@
     "hw2": "babel-node ./hw2/index.js --presets es2015,stage-1",
     "tut2": "babel-node ./tut2/index.js --presets es2015,stage-1",
     "tut3": "babel-node ./tut3/index.js --presets es2015,stage-1",
-    "hw4": "babel-node ./hw4/index.js --presets es2015,stage-1"
+    "hw4": "babel-node ./hw4/index.js --presets es2015,stage-1",
+    "hw5": "babel-node ./hw5/index.js --presets es2015,stage-1"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
