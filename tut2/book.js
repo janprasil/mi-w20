@@ -7,7 +7,7 @@ const app = express();
 const getBooks = async (req, res) => {
   console.log('GETTING BOOKS');
   res.status(Status.ok).send(
-    Storage.books.toArray()
+    Storage.orders.toArray();
   );
 };
 

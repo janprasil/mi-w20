@@ -2,20 +2,20 @@
 1 verbose cli [ '/Users/janprasil/.nvm/versions/node/v6.9.2/bin/node',
 1 verbose cli   '/Users/janprasil/.nvm/versions/node/v6.9.2/bin/npm',
 1 verbose cli   'run',
-1 verbose cli   'hw2' ]
+1 verbose cli   'tut3' ]
 2 info using npm@3.10.9
 3 info using node@v6.9.2
-4 verbose run-script [ 'prehw2', 'hw2', 'posthw2' ]
-5 info lifecycle mi-w20@0.0.1~prehw2: mi-w20@0.0.1
-6 silly lifecycle mi-w20@0.0.1~prehw2: no script for prehw2, continuing
-7 info lifecycle mi-w20@0.0.1~hw2: mi-w20@0.0.1
-8 verbose lifecycle mi-w20@0.0.1~hw2: unsafe-perm in lifecycle true
-9 verbose lifecycle mi-w20@0.0.1~hw2: PATH: /Users/janprasil/.nvm/versions/node/v6.9.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/janprasil/git/mi-w20/node_modules/.bin:/Users/janprasil/.nvm/versions/node/v6.9.2/bin:/Users/janprasil/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS
-10 verbose lifecycle mi-w20@0.0.1~hw2: CWD: /Users/janprasil/git/mi-w20
-11 silly lifecycle mi-w20@0.0.1~hw2: Args: [ '-c', 'babel-node ./hw2/index.js --presets es2015,stage-1' ]
-12 silly lifecycle mi-w20@0.0.1~hw2: Returned: code: 1  signal: null
-13 info lifecycle mi-w20@0.0.1~hw2: Failed to exec hw2 script
-14 verbose stack Error: mi-w20@0.0.1 hw2: `babel-node ./hw2/index.js --presets es2015,stage-1`
+4 verbose run-script [ 'pretut3', 'tut3', 'posttut3' ]
+5 info lifecycle mi-w20@0.0.1~pretut3: mi-w20@0.0.1
+6 silly lifecycle mi-w20@0.0.1~pretut3: no script for pretut3, continuing
+7 info lifecycle mi-w20@0.0.1~tut3: mi-w20@0.0.1
+8 verbose lifecycle mi-w20@0.0.1~tut3: unsafe-perm in lifecycle true
+9 verbose lifecycle mi-w20@0.0.1~tut3: PATH: /Users/janprasil/.nvm/versions/node/v6.9.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/janprasil/git/mi-w20/node_modules/.bin:/Users/janprasil/.nvm/versions/node/v6.9.2/bin:/Users/janprasil/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS
+10 verbose lifecycle mi-w20@0.0.1~tut3: CWD: /Users/janprasil/git/mi-w20
+11 silly lifecycle mi-w20@0.0.1~tut3: Args: [ '-c', 'babel-node ./tut3/index.js --presets es2015,stage-1' ]
+12 silly lifecycle mi-w20@0.0.1~tut3: Returned: code: 1  signal: null
+13 info lifecycle mi-w20@0.0.1~tut3: Failed to exec tut3 script
+14 verbose stack Error: mi-w20@0.0.1 tut3: `babel-node ./tut3/index.js --presets es2015,stage-1`
 14 verbose stack Exit status 1
 14 verbose stack     at EventEmitter.<anonymous> (/Users/janprasil/.nvm/versions/node/v6.9.2/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
 14 verbose stack     at emitTwo (events.js:106:13)
@@ -28,18 +28,18 @@
 15 verbose pkgid mi-w20@0.0.1
 16 verbose cwd /Users/janprasil/git/mi-w20
 17 error Darwin 16.0.0
-18 error argv "/Users/janprasil/.nvm/versions/node/v6.9.2/bin/node" "/Users/janprasil/.nvm/versions/node/v6.9.2/bin/npm" "run" "hw2"
+18 error argv "/Users/janprasil/.nvm/versions/node/v6.9.2/bin/node" "/Users/janprasil/.nvm/versions/node/v6.9.2/bin/npm" "run" "tut3"
 19 error node v6.9.2
 20 error npm  v3.10.9
 21 error code ELIFECYCLE
-22 error mi-w20@0.0.1 hw2: `babel-node ./hw2/index.js --presets es2015,stage-1`
+22 error mi-w20@0.0.1 tut3: `babel-node ./tut3/index.js --presets es2015,stage-1`
 22 error Exit status 1
-23 error Failed at the mi-w20@0.0.1 hw2 script 'babel-node ./hw2/index.js --presets es2015,stage-1'.
+23 error Failed at the mi-w20@0.0.1 tut3 script 'babel-node ./tut3/index.js --presets es2015,stage-1'.
 23 error Make sure you have the latest version of node.js and npm installed.
 23 error If you do, this is most likely a problem with the mi-w20 package,
 23 error not with npm itself.
 23 error Tell the author that this fails on your system:
-23 error     babel-node ./hw2/index.js --presets es2015,stage-1
+23 error     babel-node ./tut3/index.js --presets es2015,stage-1
 23 error You can get information on how to open an issue for this project with:
 23 error     npm bugs mi-w20
 23 error Or if that isn't available, you can get their info via:
