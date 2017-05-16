@@ -29,12 +29,19 @@
     "tut2": "babel-node ./tut2/index.js --presets es2015,stage-1",
     "tut3": "babel-node ./tut3/index.js --presets es2015,stage-1",
     "hw4": "babel-node ./hw4/index.js --presets es2015,stage-1",
-    "hw5": "babel-node ./hw5/index.js --presets es2015,stage-1"
+    "hw5": "babel-node ./hw5/index.js --presets es2015,stage-1",
+    "tut4": "babel-node ./tut4/index.js --presets es2015,stage-1",
+    "tut4b": "babel-node ./tut4b/index.js --presets es2015,stage-1",
+    "tut5": "babel-node ./tut5/index.js --presets es2015,stage-1",
+    "tut5b": "babel-node ./tut5/index2.js --presets es2015,stage-1",
+    "tut5c": "babel-node ./tut5/index3.js --presets es2015,stage-1"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "http": "0.0.0",
-    "immutable": "^3.8.1"
+    "immutable": "^3.8.1",
+    "url": "^0.11.0",
+    "ws": "^2.2.3"
   }
 }

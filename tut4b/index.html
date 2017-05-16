@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MI-W20</title>
+
+</head>
+<body>
+  <div id="container">
+
+  </div>
+  <script>
+    window.init = function(data) {
+      document.getElementById("container").innerHTML = data;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', "http://localhost:8000/get/?cb=init");
+    document.getElementsByTagName('head')[0].appendChild(script);
+  </script>
+</body>
+</html>
+
